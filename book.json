@@ -1,7 +1,6 @@
 {
-    "plugins": ["block-align", "richquotes"],
+    "plugins": ["block-align"],
 
     "pluginsConfig": {
-        "richquotes": { "default": false }
     }
 }
