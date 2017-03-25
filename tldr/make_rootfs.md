@@ -20,7 +20,7 @@ cp -a $TOP/busybox-1.26.2/examples/bootfloppy/etc/* etc
 # 进行一下必要的修改
 # 可以参考我的
 cd $TOP
-REPO=arm-qemu-exp
+REPO=emulate_vexpress-a9_on_qemu
 git clone https://github.com/stamp711/$REPO.git
 cp -a $REPO/files/rootfs/* rootfs
 ```
