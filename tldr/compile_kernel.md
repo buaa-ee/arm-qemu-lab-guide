@@ -1,5 +1,5 @@
+进入工作目录
 ```bash
-# 进入工作目录
 TOP=$HOME/arm-linux
 cd $TOP
 ```
