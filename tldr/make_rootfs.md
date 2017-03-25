@@ -21,8 +21,8 @@ cp -a $TOP/busybox-1.26.2/examples/bootfloppy/etc/* etc
 # 可以参考我的
 cd $TOP
 REPO=emulate_vexpress-a9_on_qemu
-git clone https://github.com/stamp711/$REPO.git
-cp -a $REPO/files/rootfs/* rootfs
+git clone https://github.com/stamp711/$REPO.git apricity
+cp -a apricity/files/rootfs/* rootfs
 ```
 
 ```bash
