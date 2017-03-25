@@ -54,6 +54,3 @@ qemu-system-arm \
   -drive if=sd,index=0,file=$SD,format=raw \
   -append "root=/dev/mmcblk0 console=tty0"
 ```
-
-
-
