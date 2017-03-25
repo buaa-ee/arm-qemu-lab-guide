@@ -21,20 +21,17 @@
 
 
 * 更新软件源列表：
-
   ```bash
   sudo apt-get update
   ```
 
 * 安装一些要用到的东西
-
   ```bash
   sudo apt-get -y install libncurses5-dev curl git
   ```
 
 
 * 安装交叉编译器：
-
   ```bash
   # -y 表示无需确认
   sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
@@ -42,7 +39,6 @@
 
 
 * 安装 QEMU：
-
   ```bash
   sudo apt-get install -y qemu
   ```
@@ -50,7 +46,6 @@
 
 
 * 查看 QEMU 的版本信息：
-
   ```bash
   qemu-system-arm --version
   ```
