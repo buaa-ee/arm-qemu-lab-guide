@@ -15,8 +15,8 @@ cd busybox-1.26.2
 export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 
 # 去菜单中修改
-# Busybox Settings —> Build Options —> [*] Build BusyBox as a static binary (no shared libs)
 make menuconfig
+# Busybox Settings —> Build Options —> [*] Build BusyBox as a static binary (no shared libs)
 ```
 
 ![](/assets/busybox_menuconfig_1.png)
