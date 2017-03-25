@@ -1,10 +1,4 @@
 {
-    "plugins": ["atoc"],
+    "plugins": ["block-align"]
 
-    "pluginsConfig": {
-        "atoc": {
-            "addClass": true,
-            "className": "atoc"
-        }
-    }
 }
