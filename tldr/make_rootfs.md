@@ -22,7 +22,7 @@ cp -a $TOP/busybox-1.26.2/examples/bootfloppy/etc/* etc
 cd $TOP
 REPO=arm-qemu-exp
 git clone https://github.com/stamp711/$REPO.git
-cp -a $REPO/rootfs/* rootfs
+cp -a $REPO/files/rootfs/* rootfs
 ```
 
 ```bash
