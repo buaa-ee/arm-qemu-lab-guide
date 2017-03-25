@@ -1,3 +1,3 @@
-{% center %} # QEMU 模拟 Cortex-A9 运行 U-boot 和 Linux {% endcenter %}
+# QEMU 模拟 Cortex-A9 运行 U-boot 和 Linux
 
-{% center %} Made with ❤️ by APRICITY {% endcenter %}
+Made with ❤️ by APRICITY
