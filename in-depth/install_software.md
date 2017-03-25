@@ -14,9 +14,9 @@
   > `sudo` 表示以 ROOT 权限来执行后面的命令，你需要具有管理员权限的账户才能使用 `sudo`。使用 `sudo` 时，你需要输入密码；输入密码后，在一段时间内再次使用 `sudo` 将不需要输入密码。
 
   ```bash
-    # 替换一个...啊不对是两个
-    sudo sed -i 's/cn.archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
-    $ sudo sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
+  # 替换一个...啊不对是两个
+  sudo sed -i 's/cn.archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
+  sudo sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
   ```
   > **这两条命令只适用于安装语言选择了英文或者中文的系统！** 上面的命令并不能替换列表中所有的软件源地址，不过之后需要进行大量下载的源已经被替换了。如果你有 IPV6 网络环境的话，在 TUNA 下载软件包是不会花费校园网流量的。
 
@@ -38,14 +38,14 @@
 
   ```bash
   # -y 表示无需确认
-  $ sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
+  sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
   ```
 
 
 * 安装 QEMU：
 
   ```bash
-  $ sudo apt-get install -y qemu
+  sudo apt-get install -y qemu
   ```
   > 安装QEMU时，`qemu-system` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
 
@@ -53,5 +53,5 @@
 * 查看 QEMU 的版本信息：
 
   ```bash
-    $ qemu-system-arm --version
+  qemu-system-arm --version
   ```
