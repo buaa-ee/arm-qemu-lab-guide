@@ -26,7 +26,7 @@ make menuconfig
 make
 ```
 
-```bash
+```console
 # 在 QEMU 中测试
 TOP=$HOME/arm-linux
 DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
