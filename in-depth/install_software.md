@@ -41,6 +41,7 @@
   ```bash
     $ sudo apt-get install -y qemu
   ```
+  
   > **Info** 安装QEMU时，`qemu-system` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
 
 
