@@ -27,9 +27,8 @@
   sudo apt-get update
   ```
 
-
+* 安装一些要用到的东西
   ```bash
-  # 安装一些要用到的东西
   sudo apt-get -y install libncurses5-dev curl git
   ```
 
