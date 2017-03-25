@@ -6,7 +6,6 @@
 
 
 * 为了获得更快的下载速度，我们更改 APT 的源为清华大学 TUNA 镜像源:
-
   ```bash
   # 先备份一个
   sudo cp /etc/apt/sources.list /etc/apt/sources.list.bakup
