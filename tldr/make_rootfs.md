@@ -20,8 +20,9 @@ cp -a $TOP/busybox-1.26.2/examples/bootfloppy/etc/* etc
 # 进行一下必要的修改
 # 可以参考我的
 cd $TOP
-git clone https://github.com/stamp711/arm-qemu-exp.git
-cp -a arm-qemu-exp/rootfs/* rootfs
+REPO=arm-qemu-exp
+git clone https://github.com/stamp711/$REPO.git
+cp -a $REPO/rootfs/* rootfs
 ```
 
 ```bash
