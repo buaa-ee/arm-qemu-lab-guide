@@ -24,7 +24,7 @@
 * 更新软件源列表：
 
   ```bash
-    $ sudo apt-get update
+  $ sudo apt-get update
   ```
 
 
