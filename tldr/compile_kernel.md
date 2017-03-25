@@ -1,5 +1,5 @@
-进入工作目录
 ```bash
+# 进入工作目录
 TOP=$HOME/arm-linux
 cd $TOP
 ```
@@ -40,4 +40,5 @@ qemu-system-arm \
   -append "console=tty0" \
   -serial stdio
 ```
+
 ![测试结果](/assets/qemu_kernel_only.png)
