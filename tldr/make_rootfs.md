@@ -18,7 +18,7 @@ cp -a $TOP/busybox-1.26.2/examples/bootfloppy/etc/* etc
 
 ```bash
 # 进行一下必要的修改
-# 可以参考我的
+# 可以参考我的 repo
 cd $TOP
 REPO=https://github.com/stamp711/emulate_vexpress-a9_on_qemu.git
 git clone $REPO apricity
