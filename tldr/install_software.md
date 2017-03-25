@@ -8,28 +8,28 @@ sudo sed -i 's/cn.archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sou
 sudo sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
 ```
 
-```sh
+```bash
 # 更新一下软件源列表
 sudo apt-get update
 ```
 
-```sh
+```bash
 # 安装一些要用到的东西
 sudo apt-get -y install libncurses5-dev curl git
 ```
 
-```sh
+```bash
 # 安装交叉编译器
 # -y 表示无需确认
 sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
 ```
 
-```sh
+```bash
 # 安装 QEMU
 sudo apt-get install -y qemu
 ```
 
-```sh
+```bash
 # 查看一下 QEMU 的版本
 qemu-system-arm --version
 ```
