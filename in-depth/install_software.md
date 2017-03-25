@@ -50,4 +50,3 @@
   ```bash
     $ qemu-system-arm --version
   ```
-
