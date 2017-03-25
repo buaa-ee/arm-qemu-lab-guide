@@ -13,8 +13,10 @@ curl https://busybox.net/downloads/busybox-1.26.2.tar.bz2 | tar -xjf -
 # 配置编译
 cd busybox-1.26.2
 export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
-make menuconfig
+
+# 去菜单中修改
 # Busybox Settings —> Build Options —> [*] Build BusyBox as a static binary (no shared libs)
+make menuconfig
 ```
 
 ![](/assets/busybox_menuconfig_1.png)
