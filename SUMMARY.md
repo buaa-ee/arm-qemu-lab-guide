@@ -5,4 +5,4 @@
     * [安装软件](install_software.md)
     * [
 * [详细介绍](in-depth/README.md)
-    * [在你的电脑上安装 Linux](install_linux.md)
+    * [在你的电脑上安装 Linux](in-depth/install_linux.md)
