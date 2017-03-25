@@ -28,6 +28,7 @@
   ```
 
 * 安装一些要用到的东西
+
   ```bash
   sudo apt-get -y install libncurses5-dev curl git
   ```
