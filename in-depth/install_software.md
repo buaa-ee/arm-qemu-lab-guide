@@ -28,18 +28,24 @@
   ```
 
 
+  ```bash
+  # 安装一些要用到的东西
+  sudo apt-get -y install libncurses5-dev curl git
+  ```
+
+
 * 安装交叉编译器：
 
   ```bash
-    # -y 表示无需确认
-    $ sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
+  # -y 表示无需确认
+  $ sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
   ```
 
 
 * 安装 QEMU：
 
   ```bash
-    $ sudo apt-get install -y qemu
+  $ sudo apt-get install -y qemu
   ```
   > 安装QEMU时，`qemu-system` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
 
