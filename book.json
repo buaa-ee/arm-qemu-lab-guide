@@ -2,7 +2,7 @@
     "plugins": ["ga"],
     "pluginsConfig": {
         "ga": {
-            "token": "UA-67533236-4",
+            "token": "UA-67533236-5",
             "configuration": {
                 "cookieDomain": "gitbook.youheart.org"
             }
