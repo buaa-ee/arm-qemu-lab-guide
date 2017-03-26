@@ -1,7 +1,0 @@
-* [太长不看版](tldr/README.md)
-  * [安装软件](tldr/install_software.md)
-  * [编译 U-Boot](tldr/compile_u-boot.md)
-  * [编译内核](tldr/compile_kernel.md)
-  * [编译 Busybox](tldr/compile_busybox.md)
-  * [制作 RootFS](tldr/make_rootfs.md)
-  * [使用 NFS](tldr/nfs.md)

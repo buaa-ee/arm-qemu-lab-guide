@@ -1,8 +1,0 @@
-* [详细介绍](in-depth/README.md)
-  * [在你的电脑上安装 Linux](in-depth/install_linux.md)
-  * [安装所需的软件](in-depth/install_software.md)
-  * [编译 U-Boot](in-depth/compile_u-boot.md)
-  * [编译内核](in-depth/compile_kernel.md)
-  * [编译 Busybox](in-depth/compile_busybox.md)
-  * [制作 RootFS](in-depth/make_rootfs.md)
-  * [使用 NFS](in-depth/nfs.md)
