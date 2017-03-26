@@ -1,3 +1,5 @@
+## 编译内核
+
 ```bash
 # 进入工作目录
 TOP=$HOME/arm-linux
