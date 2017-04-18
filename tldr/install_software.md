@@ -5,9 +5,8 @@
 # 先备份一下软件源列表免得出事情
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bakup
 
-# 然后替换一下地址...不对是两下
-sudo sed -i 's/cn.archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
-sudo sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list
+# 然后替换一下地址...
+sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/sources.list
 ```
 
 ```bash
