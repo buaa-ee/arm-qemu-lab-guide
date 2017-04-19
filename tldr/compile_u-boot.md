@@ -24,9 +24,12 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 
 ```bash
 # 在 QEMU 中测试
+TOP=$HOME/arm-linux
+U-BOOT=$TOP/u-boot-2017.03/u-boot
+
 qemu-system-arm \ 
     -M vexpress-a9 \
     -m 256M \
-    -kernel u-boot \
+    -kernel $U-BOOT \
     -serial stdio
 ```
