@@ -18,3 +18,4 @@
   * [使用 NFS](in-depth/nfs.md)
 * [附录](appendix/README.md)
   * [熟悉命令行](appendix/intro-commandline.md)
+  * [工作目录安排](appendix/workspace-structure.md)
