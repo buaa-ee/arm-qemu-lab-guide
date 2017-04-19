@@ -54,7 +54,7 @@ qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -append "console=tty0" 
 
 上述命令将会模拟一个 `vexpress` 开发板，并且在上面启动编译好的 Linux 内核。如果你想要了解更多关于 QEMU 命令参数的信息，可以查看 [QEMU 启动选项说明](/appendix/qemu-opts.md)。
 
-和之前一样，为了让命令具有可读性，我使用了变量：`DTB` 用来指代设备树文件，`KERNEL` 用来指代编译好的内核镜像。这些变量会在关闭终端后消失，需要重新设置。或者你可以不使用变量，但要输入一长串的 `qemu-system-arm...`命令。
+和之前一样，为了让命令具有可读性，我使用了变量：`DTB` 用来指代设备树文件，`KERNEL` 用来指代编译好的内核镜像文件。这些变量会在关闭终端后消失，需要重新设置。或者你可以不使用变量，但要输入一长串的 `qemu-system-arm...`命令。
 
 当然，内核启动后发现没有根文件系统，于是发生了 **内核失败（Kernel panic）**。
 
