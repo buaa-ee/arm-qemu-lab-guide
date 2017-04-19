@@ -41,10 +41,10 @@ sudo apt-get install open-vm-tools
 
 ### 安装实验所要用到的的软件
 
-* 安装一些要用到的东西
-  ```bash
-  sudo apt-get -y install libncurses5-dev curl git
-  ```
+安装一些要用到的东西
+```bash
+sudo apt-get -y install libncurses5-dev curl git
+```
 
 * 安装交叉编译器：
   ```bash
