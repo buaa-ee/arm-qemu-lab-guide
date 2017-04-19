@@ -52,8 +52,8 @@ sudo apt-get -y install libncurses5-dev curl git
 sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
 ```
 
-* 安装 QEMU：
-  ```bash
-  sudo apt-get install -y qemu
-  ```
-  > 安装QEMU时，`qemu-system` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
+安装 QEMU：
+```bash
+sudo apt-get install -y qemu
+```
+> 安装QEMU时，`qemu-system` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
