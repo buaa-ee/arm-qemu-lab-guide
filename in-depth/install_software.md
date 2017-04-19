@@ -24,6 +24,11 @@ sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/s
   sudo apt-get update
   ```
 
+* 如果你使用的是 VirtualBox，并且还没有安装虚拟机附加程序，可以：
+  ```bash
+  sudo apt-get install virtualbox-guest-additions-iso
+  ```
+
 * 安装一些要用到的东西
   ```bash
   sudo apt-get -y install libncurses5-dev curl git
