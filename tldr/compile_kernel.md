@@ -8,12 +8,12 @@ cd $TOP
 
 ```bash
 # 下载内核源代码并解压(85M)：
-curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/linux-4.10.5.tar.xz | tar -xJf -
+curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/linux-4.9.23.tar.xz | tar -xJf -
 ```
 
 ```bash
 # 配置编译
-cd linux-4.10.5
+cd linux-4.9.23
 export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 
 # 使用 vexpress 的默认配置
@@ -31,8 +31,8 @@ make
 ```bash
 # 在 QEMU 中测试
 TOP=$HOME/arm-linux
-DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
-KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
+DTB=$TOP/linux-4.9.23/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
+KERNEL=$TOP/linux-4.9.23/arch/arm/boot/zImage
 
 qemu-system-arm \
   -M vexpress-a9 \
