@@ -12,6 +12,9 @@ Made with ❤️ by APRICITY
 本文使用的发行版是 XUbuntu 16.04.2 LTS，虚拟化软件是 VirtualBox。
 如果你使用的是原版 Ubuntu，也没有关系。它们只是桌面环境长得不一样而已，本文仍然适用。
 
+
 ## 在开始之前…
+
+我对于工作目录安排，以及一些命令的解释见 这里。
 
 如果你对 Unix 命令行还不是很熟悉，可以看这里：[熟悉命令行](appendix/intro-commandline.md)
