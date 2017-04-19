@@ -16,3 +16,4 @@
   * [编译 Busybox](in-depth/compile_busybox.md)
   * [制作 RootFS](in-depth/make_rootfs.md)
   * [使用 NFS](in-depth/nfs.md)
+* [附录](appendix/README.md)
