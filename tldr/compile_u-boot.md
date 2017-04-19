@@ -10,6 +10,7 @@ cd $TOP
 ```bash
 # 下载 U-Boot 源代码并解压：
 # 从我在 Coding.net 上的一个仓库下载（国内地址）
+# 但是没有文件大小显示，所以无法计算下载时间
 curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2017.03.tar.gz | tar -xzf -
 ```
 
