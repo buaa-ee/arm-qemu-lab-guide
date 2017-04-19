@@ -27,9 +27,5 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 TOP=$HOME/arm-linux
 U-BOOT=$TOP/u-boot-2017.03/u-boot
 
-qemu-system-arm \ 
-    -M vexpress-a9 \
-    -m 256M \
-    -kernel $U-BOOT \
-    -serial stdio
+qemu-system-arm -M vexpress-a9 -kernel $U-BOOT -serial stdio
 ```
