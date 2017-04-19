@@ -27,7 +27,7 @@ Made with ❤️ by APRICITY
 如果你对 Unix 命令行还不是很熟悉，可以看这里：[熟悉命令行](appendix/intro-commandline.md)
 
 
-## 修订历史（最新的在最前）
+## 修订历史 📖（最新的在最前）
 
 * **【2017-04-19】** 将 QEMU 命令转为单行。
 * **【2017-04-19】** 增加了 RootFS 参考文件。
