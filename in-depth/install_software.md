@@ -21,10 +21,10 @@ sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/s
 > **这两条命令只适用于安装语言选择了英文或者中文的系统！** 上面的命令并不能替换列表中所有的软件源地址，不过之后需要进行大量下载的源已经被替换了。如果你有 IPV6 网络环境的话，在 TUNA 下载软件包是不会花费校园网流量的。
 
 
-* 更新软件源列表：
-  ```bash
-  sudo apt-get update
-  ```
+更新软件源列表：
+```bash
+sudo apt-get update
+```
 
 
 ### 安装虚拟机附加程序（如果你还没有安装的话）
