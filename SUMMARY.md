@@ -17,5 +17,6 @@
   * [制作 RootFS](in-depth/make_rootfs.md)
   * [使用 NFS](in-depth/nfs.md)
 * [附录](appendix/README.md)
-  * [熟悉命令行](appendix/intro-commandline.md)
   * [工作目录安排](appendix/workspace-structure.md)
+  * [熟悉命令行](appendix/intro-commandline.md)
+  * [QEMU 启动选项说明](appendix/qemu-opts.md)
