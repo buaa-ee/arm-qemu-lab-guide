@@ -17,10 +17,10 @@ cd linux-4.10.5
 export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 
 # 使用 vexpress 的默认配置
-make vexpress_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_defconfig
 
 # 可以在菜单中进一步修改配置
-make menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 ```
 
 ```bash
