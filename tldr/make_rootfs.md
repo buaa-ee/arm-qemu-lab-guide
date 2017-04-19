@@ -13,7 +13,8 @@ cd $TOP
 
 ```bash
 # 建立目录结构
-mkdir rootfs && cd rootfs
+mkdir rootfs
+cd rootfs
 mkdir proc sys dev etc tmp
 ```
 
