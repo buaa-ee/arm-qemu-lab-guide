@@ -21,3 +21,5 @@ Made with ❤️ by APRICITY
 
 
 ## 修订历史
+
+* 增加使用 `apt` 安装虚拟机附加工具
