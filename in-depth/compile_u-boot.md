@@ -41,4 +41,10 @@
 
 ### U-Boot 的运行
 
-【施工中】
+```bash
+# 在 QEMU 中测试
+TOP=$HOME/arm-linux
+UBOOT=$TOP/u-boot-2017.03/u-boot
+
+qemu-system-arm -M vexpress-a9 -kernel $UBOOT -serial stdio
+```
