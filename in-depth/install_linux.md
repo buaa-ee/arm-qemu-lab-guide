@@ -11,6 +11,7 @@ XUbuntu 使用的桌面环境是 Xfce 而不是 Unity，因此占用的资源更
 ![XUbuntu](/assets/xubuntu.png)
 
 如果下载速度太慢，可以去 [清华大学的镜像站][TUNA-UbuntuISO] 下载。如果你想要下载 `XUbuntu 16.04.2 LTS`，可以直接点击：[下载地址][XUbuntuDownload]。
+
 [TUNA-UbuntuISO]:   https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/
 [XUbuntuDownload]:  https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/xubuntu/releases/16.04.2/release/xubuntu-16.04.2-desktop-i386.iso
 
