@@ -8,11 +8,11 @@
 ### 更改 APT 的源为清华大学 TUNA 镜像源
 
 为了获得更快的下载速度，我们更改 APT 的源为清华大学 TUNA 镜像源:
-  ```bash
-  # 先备份一个
-  sudo cp /etc/apt/sources.list /etc/apt/sources.list.bakup
-  ```
-  > `sudo` 表示以 root 权限来执行后面的命令，你需要具有管理员权限的账户才能使用 `sudo`。使用 `sudo` 时，你需要输入密码；输入密码后，在一段时间内再次使用 `sudo` 将不需要输入密码。
+```bash
+# 先备份一个
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bakup
+```
+> `sudo` 表示以 root 权限来执行后面的命令，你需要具有管理员权限的账户才能使用 `sudo`。使用 `sudo` 时，你需要输入密码；输入密码后，在一段时间内再次使用 `sudo` 将不需要输入密码。
 
   ```bash
   # 然后替换一下地址...
