@@ -40,6 +40,9 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 ```
 
+
+### 在 QEMU 中测试
+
 ```bash
 # 在 QEMU 中测试
 TOP=$HOME/arm-linux
