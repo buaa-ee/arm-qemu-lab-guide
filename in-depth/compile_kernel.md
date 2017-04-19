@@ -21,6 +21,7 @@ cd $TOP
 curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/linux-4.10.5.tar.xz | tar -xJf -
 ```
 
+
 ### 编译内核
 
 ```bash
