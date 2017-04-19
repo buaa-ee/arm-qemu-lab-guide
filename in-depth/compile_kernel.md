@@ -52,4 +52,6 @@ KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
 qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -append "console=tty0" -serial stdio
 ```
 
+上述命令将会模拟一个 `vexpress` 开发板，并且在上面启动编译好的 Linux 内核。
+
 ![测试结果](/assets/qemu_kernel_only.png)
