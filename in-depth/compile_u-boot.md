@@ -31,7 +31,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2
 ### 编译 U-Boot
 
 ```console
-# 进入目录
+# 进入源码目录
 cd u-boot-2017.03
 ```
 
