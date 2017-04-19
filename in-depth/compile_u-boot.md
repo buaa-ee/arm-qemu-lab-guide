@@ -11,8 +11,9 @@
 
 * 下载 U-Boot 源代码并解压，这里下载的是 2017.03 的版本：
     ```console
-    # 我们从 U-Boot 在 GitHub 上的镜像下载
-    $ wget https://github.com/u-boot/u-boot/archive/v2017.03.tar.gz -O u-boot-2017.03.tar.gz
+    # 从我在 Coding.net 上的一个仓库下载（国内地址）
+    # 但是没有文件大小显示，所以无法计算下载时间
+    curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2017.03.tar.gz | tar -xzf -
     ```
     ```console
     # 解压并进入目录
