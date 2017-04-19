@@ -23,7 +23,7 @@ cd linux-4.10.5
 # 使用 vexpress 的默认编译配置
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_defconfig
 
-# 可以在菜单中进一步修改配置（其实不用改）
+# 可以在菜单中进一步修改配置（不用改）
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 ```
 
