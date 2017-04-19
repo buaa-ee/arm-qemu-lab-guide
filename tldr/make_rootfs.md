@@ -53,11 +53,5 @@ DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
 KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
 SD=$TOP/rootfs.ext3
 
-qemu-system-arm \
-  -M vexpress-a9 \
-  -m 256M \
-  -dtb $DTB \
-  -kernel $KERNEL \
-  -drive if=sd,index=0,file=$SD,format=raw \
-  -append "root=/dev/mmcblk0 console=tty0"
+qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -drive if=sd,index=0,file=$SD,format=raw -append "root=/dev/mmcblk0 console=tty0"
 ```
