@@ -1,5 +1,10 @@
 ## 制作 RootFS
 
+【状态：已完成】
+
+---
+
+
 ```bash
 # 进入工作目录
 TOP=$HOME/arm-linux
