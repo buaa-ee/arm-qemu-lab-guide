@@ -42,7 +42,7 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
 # 进行编译
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 ```
-> 如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。
+> 编译可能需要两到三分钟。如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。
 
 
 ### 在 QEMU 中测试
