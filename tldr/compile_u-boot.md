@@ -30,5 +30,4 @@ UBOOT=$TOP/u-boot-2017.03/u-boot
 qemu-system-arm -M vexpress-a9 -kernel $UBOOT -serial stdio
 ```
 
-
 ![测试结果](/assets/qemu-uboot-only.png)
