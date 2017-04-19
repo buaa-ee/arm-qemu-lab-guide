@@ -8,7 +8,7 @@ cd $TOP
 
 ```bash
 # 下载内核源代码并解压：
-curl https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.10.5.tar.xz | tar -xJf -
+curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/linux-4.9.23.tar.xz | tar -xJf -
 ```
 
 ```bash
