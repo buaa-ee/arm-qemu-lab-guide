@@ -22,7 +22,6 @@ sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/s
 
 > 这么干并不能替换列表中所有的软件源地址（不符合 `http(s)://*archive.ubuntu.com` 形式的地址），不过之后需要进行大量下载的源已经被替换了。
 
-
 更新软件源列表：
 ```bash
 sudo apt-get update
