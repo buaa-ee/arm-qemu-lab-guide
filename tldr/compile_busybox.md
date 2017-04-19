@@ -8,7 +8,7 @@ cd $TOP
 
 ```bash
 # 下载 Busybox 源代码并解压：
-curl https://busybox.net/downloads/busybox-1.26.2.tar.bz2 | tar -xjf -
+curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/busybox-1.26.2.tar.bz2 | tar -xjf -
 ```
 
 ```bash
