@@ -58,9 +58,3 @@ sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/s
   sudo apt-get install -y qemu
   ```
   > 安装QEMU时，`qemu-system` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
-
-
-* 查看 QEMU 的版本信息：
-  ```bash
-  qemu-system-arm --version
-  ```
