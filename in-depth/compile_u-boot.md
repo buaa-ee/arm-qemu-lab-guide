@@ -45,7 +45,6 @@ $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 ```
 > 如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。
-> 使用 `-j` 选项可以进行多线程编译，线程个数会被自动设置为 CPU 的线程数。相应的命令为 `make -j`。但是有些情况下，多线程编译会出现一些稀奇古怪的问题，所以这里不使用。
 
 
 ### 在 QEMU 中测试
