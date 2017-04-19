@@ -26,6 +26,9 @@ sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/s
   sudo apt-get update
   ```
 
+
+### 安装虚拟机附加程序（如果你还没有安装的话）
+
 * 如果你使用的是 VirtualBox，并且还没有安装虚拟机附加程序，可以：
   ```bash
   sudo apt-get install virtualbox-guest-additions-iso
@@ -35,6 +38,9 @@ sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/s
   ```bash
   sudo apt-get install open-vm-tools
   ```
+
+
+### 安装实验所要用到的的软件
 
 * 安装一些要用到的东西
   ```bash
