@@ -18,7 +18,7 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bakup
 # 然后替换一下地址...
 sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/sources.list
 ```
-> 上面的命令所做的事情是：将 /etc/apt/sources.list 中
+> 上面的命令所做的事情是：将 `/etc/apt/sources.list` 中
 > 这么干并不能替换列表中所有的软件源地址，不过之后需要进行大量下载的源已经被替换了。如果你有 IPV6 网络环境的话，在 TUNA 下载软件包是不会花费校园网流量的。
 
 
