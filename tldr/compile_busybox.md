@@ -30,7 +30,7 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 
 ```bash
 # 进行编译
-make install
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- install
 ```
 
 
