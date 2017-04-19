@@ -1,5 +1,8 @@
 ## 编译 U-Boot
 
+【状态：已完成】
+
+
 ```bash
 # 建立并进入工作目录
 TOP=$HOME/arm-linux
