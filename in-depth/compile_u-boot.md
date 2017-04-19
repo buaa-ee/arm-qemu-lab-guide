@@ -7,7 +7,9 @@
 
 ```console
 # 可以用 '&&' 来在一行中输入多个命令
-$ cd $HOME && mkdir apricity && cd apricity
+TOP=$HOME/arm-linux
+mkdir -p $TOP
+cd $TOP
 ```
 
 
