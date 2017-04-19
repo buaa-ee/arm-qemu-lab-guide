@@ -29,8 +29,3 @@ sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
 # 安装 QEMU
 sudo apt-get install -y qemu
 ```
-
-```bash
-# 查看一下 QEMU 的版本
-qemu-system-arm --version
-```
