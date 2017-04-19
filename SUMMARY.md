@@ -17,3 +17,5 @@
   * [制作 RootFS](in-depth/make_rootfs.md)
   * [使用 NFS](in-depth/nfs.md)
 * [附录](appendix/README.md)
+  * [熟悉命令行](appendix/intro-commandline.md)
+  
