@@ -17,12 +17,11 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/busybox-
 ```
 
 ```bash
-# 配置编译
+# 进入源码目录
 cd busybox-1.26.2
-export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 
-# 去菜单中修改
-make menuconfig
+# 去菜单中修改配置
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 # Busybox Settings —> Build Options —> [*] Build BusyBox as a static binary (no shared libs)
 ```
 
