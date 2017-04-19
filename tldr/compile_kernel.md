@@ -13,7 +13,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/linux-4.
 
 ```bash
 # 配置编译
-cd linux-4.9.23
+cd linux-4.10.5
 export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 
 # 使用 vexpress 的默认配置
