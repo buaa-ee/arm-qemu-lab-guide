@@ -19,6 +19,10 @@ $ cd $HOME && mkdir apricity && cd apricity
 curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2017.03.tar.gz | tar -xzf -
 ```
 
+> 上面的命令使用了传输工具 `curl` 下载了一个 `tar.gz` 格式的压缩包，并把下载的内容通过管道直接传递给解压程序 `tar`。
+
+> 运行的结果：当前目录下出现解压后的文件夹 `u-boot-2017.03`。
+
 ```console
 # 解压并进入目录
 $ tar -xzf u-boot-2017.03.tar.gz
@@ -30,18 +34,18 @@ $ cd u-boot-2017.03
 
 
 ### 编译 U-Boot
-    ```console
-    # 生成配置文件
-    $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
-    ```
-    > vexpress 是一个 ARM 的开发板。可以参看 [这篇博客](https://learningfromyoublog.wordpress.com/2016/04/05/131/)。
+```console
+# 为 vexpress 开发板生成配置文件
+$ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
+```
+> vexpress 是一个 ARM 的开发板。可以参看 [这篇博客](https://learningfromyoublog.wordpress.com/2016/04/05/131/)。
 
-    ```console
-    # 进行编译
-    $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
-    ```
-    > 如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。
-    > 使用 `-j` 选项可以进行多线程编译，线程个数会被自动设置为 CPU 的线程数。相应的命令为 `make -j`。但是有些情况下，多线程编译会出现一些稀奇古怪的问题，所以这里不使用。
+```console
+# 进行编译
+$ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
+```
+> 如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。
+> 使用 `-j` 选项可以进行多线程编译，线程个数会被自动设置为 CPU 的线程数。相应的命令为 `make -j`。但是有些情况下，多线程编译会出现一些稀奇古怪的问题，所以这里不使用。
 
 
 ### 在 QEMU 中测试
