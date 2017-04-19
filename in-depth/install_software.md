@@ -47,13 +47,11 @@ sudo sed -i "s|//.*archive.ubuntu.com|//mirror.tuna.tsinghua.edu.cn|" /etc/apt/s
   sudo apt-get -y install libncurses5-dev curl git
   ```
 
-
 * 安装交叉编译器：
   ```bash
   # -y 表示无需确认
   sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
   ```
-
 
 * 安装 QEMU：
   ```bash
