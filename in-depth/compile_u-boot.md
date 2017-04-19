@@ -6,7 +6,6 @@
 ### 建立并进入工作目录
 
 ```console
-# 可以用 '&&' 来在一行中输入多个命令
 TOP=$HOME/arm-linux
 mkdir -p $TOP
 cd $TOP
