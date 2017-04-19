@@ -49,6 +49,7 @@ UBOOT=$TOP/u-boot-2017.03/u-boot
 qemu-system-arm -M vexpress-a9 -kernel $UBOOT -serial stdio
 ```
 
-上述命令将会模拟一个 Vexpress 开发板，并且将你当前的终端作为这个开发版的串口终端。
+上述命令将会模拟一个 `vexpress` 开发板，并且将当前的终端连接到这个开发板的串口。
 
-开机后，`U-Boot`会尝试以各种媒质启动。不过，由于我们还没有提供操作系统内核，所以
+开机后，U-Boot 会尝试以各种方式启动。不过，由于我们还没有提供操作系统，所以会提示：找不到内核镜像。
+![测试结果](/assets/qemu-uboot-only.png)
