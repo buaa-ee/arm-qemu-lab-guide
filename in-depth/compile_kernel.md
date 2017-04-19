@@ -52,7 +52,7 @@ KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
 qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -append "console=tty0" -serial stdio
 ```
 
-上述命令将会模拟一个 `vexpress` 开发板，并且在上面启动编译好的 Linux 内核。如果你想要了解更多关于 QEMU 命令参数的信息，可以看 [这里](/appendix/qemu-opts.md)。
+上述命令将会模拟一个 `vexpress` 开发板，并且在上面启动编译好的 Linux 内核。如果你想要了解更多关于 QEMU 命令参数的信息，可以查看 [QEMU 启动选项说明](/appendix/qemu-opts.md)。
 
 当然，内核启动后发现没有根文件系统，于是发生了 **内核失败（Kernel panic）**。
 
