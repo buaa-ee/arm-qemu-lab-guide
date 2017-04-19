@@ -30,6 +30,7 @@ cd $TOP
 这里下载的是 2017.03 的版本：
 
 ```console
+# 下载 U-Boot 源码并解压(15M)
 # 从我在 Coding.net 上的一个仓库下载（国内地址）
 # 但是没有文件大小显示，所以无法看到剩余下载时间
 curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2017.03.tar.gz | tar -xzf -
@@ -37,7 +38,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2
 
 上面的命令使用了传输工具 `curl` 下载了一个 `tar.gz` 格式的压缩包，并把下载的内容通过管道直接传递给解压程序 `tar`。运行的结果：当前目录下出现解压后的文件夹 `u-boot-2017.03`。
 
-不要去 <ftp://ftp.denx.de> 下载，除非你有代理。这个文件的大小是 14.92 M。
+<ftp://ftp.denx.de> 的下载速度非常慢，除非你有代理。如果你想要其他版本的 U-Boot 源码，可以告诉我。
 
 
 ### 编译 U-Boot
