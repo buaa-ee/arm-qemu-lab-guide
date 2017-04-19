@@ -75,6 +75,6 @@ qemu-system-arm -M vexpress-a9 -kernel $UBOOT -serial stdio
 
 为了让命令具有可读性，我使用了变量 `UBOOT`，它指向的是编译好的二进制文件 `$TOP/u-boot-2017.03/u-boot`（注意 `$TOP` 指的是 `TOP` 变量的内容，也就是我们的顶层文件夹）。这个变量在关闭终端后会消失，需要重新设置。
 
-开机后，U-Boot 会尝试以各种方式启动。不过，由于我们还没有提供操作系统，所以会提示错误。
+开机后，U-Boot 会尝试以各种方式启动。不过，由于我们还没有任何可以启动的操作系统，所以会提示 `ERROR`。
 
 ![测试结果](/assets/qemu-uboot-only.png)
