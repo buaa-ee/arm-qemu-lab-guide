@@ -17,10 +17,9 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2
 ```bash
 # 编译
 cd u-boot-2017.03
-export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 make clean
-make vexpress_ca9x4_defconfig
-make
+make vexpress_ca9x4_defconfig ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 ```
 
 ```bash
