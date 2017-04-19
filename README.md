@@ -13,3 +13,5 @@ Made with ❤️ by APRICITY
 如果你使用的是原版 Ubuntu，也没有关系。它们只是桌面环境长得不一样而已，本文仍然适用。
 
 ## 在开始之前…
+
+如果你对 Unix 命令行还不是很熟悉，可以看这里：[熟悉命令行](appendix/intro-commandline.md)
