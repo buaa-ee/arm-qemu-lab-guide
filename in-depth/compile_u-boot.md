@@ -26,21 +26,14 @@
 
 * Make!
     ```console
-    # 设置环境变量
-    $ export ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
-    ```
-    > **这样设置的环境变量仅对当前终端有效。**如果你重新打开了终端并且想要使用 `make` 进行交叉编译，你需要再次设置。
-    > 我个人不喜欢像实验指导书上那样修改 Makefile 文件。
-
-    ```console
     # 生成配置文件
-    $ make vexpress_ca9x4_defconfig
+    $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
     ```
     > vexpress 是一个 ARM 的开发板。可以参看 [这篇博客](https://learningfromyoublog.wordpress.com/2016/04/05/131/)。
 
     ```console
     # 进行编译
-    $ make
+    $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
     ```
     > 如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。如果你退出了终端会话，那么还需要重新设置环境变量。
     > 使用 `-j` 选项可以进行多线程编译，线程个数会被自动设置为 CPU 的线程数。相应的命令为 `make -j`。但是有些情况下，多线程编译会出现一些稀奇古怪的问题，所以这里不使用。
