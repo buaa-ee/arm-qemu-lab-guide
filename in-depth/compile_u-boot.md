@@ -36,13 +36,13 @@ $ cd u-boot-2017.03
 ### 编译 U-Boot
 ```console
 # 为 vexpress 开发板生成配置文件
-$ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
 ```
 > vexpress 是一个 ARM 的开发板。可以参看 [这篇博客](https://learningfromyoublog.wordpress.com/2016/04/05/131/)。
 
 ```console
 # 进行编译
-$ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 ```
 > 如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。
 
