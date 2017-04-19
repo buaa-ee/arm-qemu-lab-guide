@@ -46,7 +46,7 @@ rmdir tmpfs
 TOP=$HOME/arm-linux
 DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
 KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
-SD=$TOP/sdcard.img
+SD=$TOP/rootfs.ext3
 
 qemu-system-arm \
   -M vexpress-a9 \
