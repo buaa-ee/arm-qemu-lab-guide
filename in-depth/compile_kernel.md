@@ -42,6 +42,8 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 ```
 
+在等待编译的过程中，你可以考虑喝个茶什么的。
+
 
 ### 在 QEMU 中测试
 
