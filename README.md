@@ -18,3 +18,5 @@ Made with ❤️ by APRICITY
 我对于工作目录（也就是文件夹）的安排见这里：[工作目录安排](appendix/workspace-structure.md)
 
 如果你对 Unix 命令行还不是很熟悉，可以看这里：[熟悉命令行](appendix/intro-commandline.md)
+
+## 修订历史
