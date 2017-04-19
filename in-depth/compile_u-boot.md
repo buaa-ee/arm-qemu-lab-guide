@@ -29,7 +29,6 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2
 
 ```console
 # 进入目录
-tar -xzf u-boot-2017.03.tar.gz
 cd u-boot-2017.03
 ```
 
