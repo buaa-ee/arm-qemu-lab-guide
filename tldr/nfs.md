@@ -11,8 +11,11 @@ sudo apt-get install nfs-kernel-server
 ```
 
 ```bash
-# 编辑 /etc/exports
+# 用你喜欢的编辑器编辑 /etc/exports
 sudo vim /etc/exports
+# 或者...
+sudo nano /etc/exports
+sudo gedit /etc/exports
 ```
 
 ```vim
