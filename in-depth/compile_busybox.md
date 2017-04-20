@@ -50,3 +50,5 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 # 进行编译
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- install
 ```
+
+请喝茶
