@@ -51,4 +51,14 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- install
 ```
 
-请喝茶。喝完茶后你会看到 `_install` 文件夹下出现编译好的 Busybox 工具集，后面我们将用它来制作 RootFS。
+请喝茶。喝完茶后你会看到 `_install` 文件夹下出现编译好的 Busybox 工具集，目录结构如下所示。后面我们将用它来制作 RootFS。
+
+```
+_install
+├── bin
+│   └── busybox
+├── sbin
+└── usr
+    ├── bin
+    └── sbin
+```
