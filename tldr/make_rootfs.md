@@ -26,8 +26,8 @@ cp -a $TOP/busybox-1.26.2/examples/bootfloppy/etc/* etc
 
 ```bash
 # 进行一下必要的修改
-# 可以参考我的 repo 或者老师发的实验指导书
-# 虽然指导书上写得乱七八糟我根本就没看
+# 我打包了一份 rootfs-by-apricity.tar.gz
+# 仅供参考
 cd $TOP
 curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/rootfs-by-apricity.tar.gz | tar -xzf -
 cp -a rootfs-by-apricity/* rootfs
