@@ -23,6 +23,11 @@ sudo vim /etc/exports
 ```
 
 ```bash
+# 重启 NFS 服务
+sudo service nfs-kernel-server restart
+```
+
+```bash
 # 启动
 TOP=$HOME/arm-linux
 DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
