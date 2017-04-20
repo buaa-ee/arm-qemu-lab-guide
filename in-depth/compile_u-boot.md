@@ -38,7 +38,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2
 
 上面的命令使用了传输工具 `curl` 下载了一个 `tar.gz` 格式的压缩包，并把下载的内容通过管道直接传递给解压程序 `tar`。运行的结果：当前目录下出现解压后的文件夹 `u-boot-2017.03`。
 
-<ftp://ftp.denx.de> 的下载速度非常慢，除非你有代理。如果你想要其他版本的 U-Boot 源码，可以告诉我。
+<ftp://ftp.denx.de> 的下载速度非常慢，除非你有代理。如果你想要其他版本的 U-Boot 源码而又嫌下载速度太慢，可以告诉我。
 
 
 ### 编译 U-Boot
@@ -74,7 +74,7 @@ qemu-system-arm -M vexpress-a9 -kernel $UBOOT -serial stdio
 
 上述命令将会模拟一个 `vexpress` 开发板，并且将当前的终端连接到这个开发板的串口。由于我们没有指定内存大小，内存将默认为 128 MB。如果你想要了解更多关于 QEMU 命令参数的信息，可以查看 [QEMU 启动选项说明](/appendix/qemu-opts.md)。
 
-为了让命令具有可读性，我使用了变量 `UBOOT`，它指向的是编译好的二进制文件 `$TOP/u-boot-2017.03/u-boot`（注意 `$TOP` 指的是 `TOP` 变量的内容，也就是我们的顶层文件夹）。
+为了让命令具有可读性，这里使用了变量 `UBOOT`，它指向的是编译好的二进制文件 `$TOP/u-boot-2017.03/u-boot`（注意 `$TOP` 指的是 `TOP` 变量的内容，也就是我们的顶层文件夹）。
 
 这些变量会在关闭终端后消失，需要重新设置。或者你可以不使用变量，但要输入一长串的 `qemu-system-arm...`命令。
 
