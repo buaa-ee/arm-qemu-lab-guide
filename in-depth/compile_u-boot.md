@@ -72,7 +72,7 @@ UBOOT=$TOP/u-boot-2017.03/u-boot
 qemu-system-arm -M vexpress-a9 -kernel $UBOOT -serial stdio
 ```
 
-上述命令将会模拟一个 `vexpress` 开发板，并且将当前的终端连接到这个开发板的串口。由于我们没有指定内存大小，内存将默认为 64 MB。如果你想要了解更多关于 QEMU 命令参数的信息，可以查看 [QEMU 启动选项说明](/appendix/qemu-opts.md)。
+上述命令将会模拟一个 `vexpress` 开发板，并且将当前的终端连接到这个开发板的串口。由于我们没有指定内存大小，内存将默认为 128 MB。如果你想要了解更多关于 QEMU 命令参数的信息，可以查看 [QEMU 启动选项说明](/appendix/qemu-opts.md)。
 
 为了让命令具有可读性，这里使用了变量 `UBOOT`，它指向的是编译好的二进制文件 `$TOP/u-boot-2017.03/u-boot`（注意 `$TOP` 指的是 `TOP` 变量的内容，也就是我们的顶层文件夹）。
 
