@@ -43,6 +43,9 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 ![](/assets/busybox_menuconfig_1.png)  
 ![](/assets/busybox_menuconfig_2.png)
 
+这是为了让 Busybox 被编译成静态的二进制文件，即无须外部“动态链接库”即可运行。
+
+
 ```bash
 # 进行编译
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- install
