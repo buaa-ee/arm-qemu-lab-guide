@@ -25,7 +25,7 @@ Made with ❤️ by APRICITY
 
 如果你对 Linux 的命令行还不是很熟悉，可以看这里：[熟悉命令行](appendix/intro-commandline.md)
 
-为了提高下载速度，我已将所需的文件上传到 Coding.net 的一个仓库中。本文中所有的下载地址均来源于那个仓库。
+为了提高下载速度，我已将所需的文件上传到 Coding.net 的一个仓库中。本文中所有的下载地址均来源于 Coding.net。
 
 本文使用的发行版是 XUbuntu 16.04.2 LTS，虚拟化软件是 VirtualBox。如果你使用的是原版 Ubuntu，也没有关系，它们只是桌面环境长得不一样而已。
 
