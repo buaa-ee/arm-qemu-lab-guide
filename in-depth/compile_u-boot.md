@@ -78,6 +78,6 @@ qemu-system-arm -M vexpress-a9 -kernel $UBOOT -serial stdio
 
 这些变量会在关闭终端后消失，需要重新设置。或者你可以不使用变量，但要输入一长串的 `qemu-system-arm...`命令。
 
-开机后，U-Boot 会尝试以各种方式启动。不过，由于我们还没有任何可以启动的操作系统，所以会提示 `ERROR`。
+开机后，U-Boot 会尝试以各种方式启动。不过，由于我们还没有任何可以启动的操作系统，所以会提示 `ERROR`。就酱紫。
 
 ![测试结果](/assets/qemu-uboot-only.png)
