@@ -23,3 +23,7 @@ Made with ❤️ by APRICITY
 本文对于工作目录（也就是文件夹）的安排见这里：[工作目录安排](appendix/workspace-structure.md)
 
 如果你对 Linux 的命令行还不是很熟悉，可以看这里：[熟悉命令行](appendix/intro-commandline.md)
+
+注 1：你无需（也不建议）随意使用 ROOT 权限，本文中已尽量减少。
+
+注 2：你无需（也不建议）修改 Makefile 或者是任何源码。
