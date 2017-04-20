@@ -40,12 +40,12 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 # Busybox Settings —> Build Options —> [*] Build BusyBox as a static binary (no shared libs)
 ```
 
+这是为了让 Busybox 被编译成静态的二进制文件，即无须外部“动态链接库”即可运行。
+
 使用上下键来导航，回车键进入，空格键改变选中／不选中。完成后，用上下及左右键导航到底部的 `Exit` 并回车。
 
 ![](/assets/busybox_menuconfig_1.png)  
 ![](/assets/busybox_menuconfig_2.png)
-
-这是为了让 Busybox 被编译成静态的二进制文件，即无须外部“动态链接库”即可运行。
 
 
 ```bash
