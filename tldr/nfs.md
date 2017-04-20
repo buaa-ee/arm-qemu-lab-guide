@@ -34,6 +34,7 @@ sudo service nfs-kernel-server restart
 ```bash
 # 启动
 # 这一次我们使用 NFS 来作为 RootFS
+# 注：不要修改 10.0.2.2 这个地址（参见 QEMU 使用手册）
 
 TOP=$HOME/arm-linux
 DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
