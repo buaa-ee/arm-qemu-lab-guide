@@ -38,7 +38,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2
 
 上面的命令使用了传输工具 `curl` 下载了一个 `tar.gz` 格式的压缩包，并把下载的内容通过管道直接传递给解压程序 `tar`。运行的结果：当前目录下出现解压后的文件夹 `u-boot-2017.03`。
 
-<ftp://ftp.denx.de> 的下载速度非常慢，除非你有代理。如果你想要其他版本的 U-Boot 源码而又嫌下载速度太慢，可以告诉我。
+<ftp://ftp.denx.de> 的下载速度非常慢，除非你有代理。如果你想要其他版本的 U-Boot 源码而又嫌从国外下载速度太慢，可以告诉我。
 
 
 ### 编译 U-Boot
