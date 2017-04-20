@@ -26,3 +26,8 @@ cd $TOP
 curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/busybox-1.26.2.tar.bz2 | tar -xjf -
 ```
 
+这里依然是从 Coding.net 的仓库上下载。如果你想要其他版本的 Busybox 源码，而又嫌从国外下载速度太慢，可以告诉我。
+
+
+### 编译 Busybox
+
