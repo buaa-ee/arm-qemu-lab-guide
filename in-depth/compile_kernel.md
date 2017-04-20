@@ -21,7 +21,7 @@ cd $TOP
 curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/linux-4.10.5.tar.xz | tar -xJf -
 ```
 
-这里依然是从我在 Coding.net 的仓库上下载。如果你想要其他版本的内核源码，可以告诉我（毕竟从国外下载很慢）。
+这里依然是从 Coding.net 的仓库上下载。如果你想要其他版本的内核源码，可以告诉我（毕竟从国外下载很慢）。
 
 
 ### 编译内核
