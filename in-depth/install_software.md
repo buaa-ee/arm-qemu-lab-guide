@@ -49,12 +49,14 @@ sudo apt-get install open-vm-tools
 ```bash
 sudo apt-get -y install libncurses5-dev curl git
 ```
+> `libncurses5-dev` 是 `menuconfig` 时显示菜单的依赖库，`curl` 是网络传输工具（可以用来下载文件），`git` 是版本管理工具。
 
 安装交叉编译器：
 ```bash
 # -y 表示无需确认
 sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
 ```
+> `gcc` 是 C 编译器，`g++` 是 C++ 编译器。
 
 安装 QEMU：
 ```bash
