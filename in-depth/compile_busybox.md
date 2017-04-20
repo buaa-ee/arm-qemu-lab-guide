@@ -31,7 +31,8 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/busybox-
 
 ### 编译 Busybox
 
-# 进入源码目录
+```
+# 进入 Busybox 源码目录
 cd busybox-1.26.2
 
 # 去菜单中修改配置
