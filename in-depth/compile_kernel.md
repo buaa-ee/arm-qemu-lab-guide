@@ -60,6 +60,6 @@ qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -append "console=tty0" 
 
 和之前一样，为了让命令具有可读性，这里使用了变量：`DTB` 用来指代设备树文件，`KERNEL` 用来指代编译好的内核镜像文件。这些变量会在关闭终端后消失，需要重新设置。或者你可以不使用变量，但要输入一长串的 `qemu-system-arm...`命令。
 
-当然，内核启动后发现没有根文件系统（`RootFS`），它无事可做，于是发生了 **内核失败（Kernel panic）**。
+当然，内核启动后发现没有根文件系统（`RootFS`），它无事可做，于是发生了 **内核失败（Kernel panic）**。就酱紫。
 
 ![测试结果](/assets/qemu_kernel_only.png)
