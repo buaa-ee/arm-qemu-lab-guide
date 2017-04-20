@@ -22,7 +22,7 @@ sudo vim /etc/exports
 ```
 
 ```vim
-# 加入像下面这一样的一行
+# 加入像下面这样的一行
 # 注意修改 rootfs 文件夹的路径，对应在 $TOP/rootfs（TOP 是我们的顶层文件夹）
 # 本文在 /home/apricity/arm-linux/rootfs
 /home/apricity/arm-linux/rootfs 127.0.0.1(rw,sync,no_subtree_check,no_root_squash,insecure)
