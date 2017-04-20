@@ -15,6 +15,7 @@ sudo apt-get install nfs-kernel-server
 sudo vim /etc/exports
 # 或者...
 sudo nano /etc/exports
+# 再或者...（你可能需要 sudo apt-get install gedit）
 sudo gedit /etc/exports
 ```
 
