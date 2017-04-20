@@ -33,6 +33,8 @@ sudo service nfs-kernel-server restart
 
 ```bash
 # 启动
+# 这一次我们使用 NFS 来作为 RootFS
+
 TOP=$HOME/arm-linux
 DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
 KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
