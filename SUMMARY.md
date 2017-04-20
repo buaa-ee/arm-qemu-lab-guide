@@ -19,6 +19,6 @@
   * [使用 NFS](in-depth/nfs.md)
   * [运行 C 语言程序](in-depth/run_c_program.md)
 * [附录](appendix/README.md)
-  * [工作目录安排](appendix/workspace-structure.md)
   * [熟悉命令行](appendix/intro-commandline.md)
+  * [工作目录安排](appendix/workspace-structure.md)
   * [QEMU 启动选项说明](appendix/qemu-opts.md)
