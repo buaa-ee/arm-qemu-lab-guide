@@ -21,9 +21,9 @@ cp -a /usr/arm-linux-gnueabi/lib/* $TOP/rootfs/lib/
 # 用你喜欢的编辑器写一个 C 语言程序
 
 # （你可能需要 sudo apt-get install gedit）
-sudo gedit $TOP/rootfs/hello.c
+gedit $TOP/rootfs/hello.c
 # 或者...
-sudo nano $TOP/rootfs/hello.c
+nano $TOP/rootfs/hello.c
 # 再或者...
-sudo vim $TOP/rootfs/hello.c
+vim $TOP/rootfs/hello.c
 ```
