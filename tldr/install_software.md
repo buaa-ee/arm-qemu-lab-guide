@@ -31,6 +31,6 @@ sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
 ```
 
 ```bash
-# 安装 QEMU（其他相关工具会被自动安装）
+# 安装 QEMU（其他相关工具，如 qemu-system 等会被自动安装）
 sudo apt-get install -y qemu
 ```
