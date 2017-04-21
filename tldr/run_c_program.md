@@ -18,12 +18,20 @@ cp -a /usr/arm-linux-gnueabi/lib/* $TOP/rootfs/lib/
 ```
 
 ```bash
+# 到 rootfs 目录下面
+cd $TOP/rootfs/lib
+
 # 用你喜欢的编辑器写一个 C 语言程序
 
 # （你可能需要 sudo apt-get install gedit）
-gedit $TOP/rootfs/hello.c
+gedit hello.c
 # 或者...
-nano $TOP/rootfs/hello.c
+nano hello.c
 # 再或者...
-vim $TOP/rootfs/hello.c
+vim hello.c
+```
+
+```
+# 写完之后，用交叉编译工具去编译它
+arm-linux-gnueabi-gcc hello.c
 ```
