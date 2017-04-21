@@ -60,6 +60,6 @@ sudo apt-get install -y gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
 
 安装 QEMU：
 ```bash
-sudo apt-get install -y qemu
+sudo apt-get install -y qemu-system
 ```
-> 安装QEMU时，`qemu-system` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
+> 安装时，`qemu` 和 `qemu-utils` 会被自动安装，所以不需要手动输入。
