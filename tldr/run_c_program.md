@@ -13,5 +13,6 @@ cd $TOP
 
 ```bash
 # 将 C 运行库拷贝到 RootFS 里面
-
+mkdir -p $TOP/rootfs/lib
+cp -a /usr/arm-linux-gnueabi/lib/* $TOP/rootfs/lib/
 ```
