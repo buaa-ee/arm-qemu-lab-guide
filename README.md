@@ -17,7 +17,7 @@ Made with ❤️ by APRICITY
 
 本文中使用的 U-Boot、Linux 内核、Busybox 等均为较新的版本，你无需修改 Makefile 或者其他的任何源代码。
 
-已确认 Ubuntu 12.04 所提供的 QEMU 有 BUG。请使用 Ubuntu 16.04 或者更新的版本。
+** 已确认 Ubuntu 12.04 所提供的 QEMU 有 BUG。**请使用 Ubuntu 16.04 或者更新的版本。
 
 为了方便表述，本文在命令行中使用了变量，变量在关闭终端后会消失，需要重新设置。你也可以不使用，直接把变量换成对应的文本即可。
 
