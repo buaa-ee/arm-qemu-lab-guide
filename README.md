@@ -14,7 +14,7 @@ Made with ❤️ by APRICITY
 
 ## 注意 🔮
 
-你无需（也不建议）随意使用 `root` 权限，更不要直接以 `root` 用户身份进行操作。这样很危险。
+你无需随意使用 `root` 权限，更不要直接以 `root` 用户身份进行操作。这样很危险。
 
 本文中使用的 U-Boot、Linux 内核、Busybox 等均为较新的版本，你无需修改 Makefile 或者其他的任何源代码。
 
