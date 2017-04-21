@@ -47,3 +47,8 @@ KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
 
 qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -append "root=/dev/nfs console=tty0 nfsroot=10.0.2.2:/$TOP/rootfs rw ip=dhcp"
 ```
+
+```bash
+# 在 QEMU 虚拟出的机器开机后，在它的命令行里输入
+./a.out
+```
