@@ -35,3 +35,15 @@ vim hello.c
 # 写完之后，用交叉编译工具去编译它
 arm-linux-gnueabi-gcc hello.c
 ```
+
+```bash
+# 启动
+# 依然是使用 NFS 来作为 RootFS
+# 注：不要修改 10.0.2.2 这个地址（参见 QEMU 使用手册）
+
+TOP=$HOME/arm-linux
+DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
+KERNEL=$TOP/linux-4.10.5/arch/arm/boot/zImage
+
+qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -append "root=/dev/nfs console=tty0 nfsroot=10.0.2.2:/$TOP/rootfs rw ip=dhcp"
+```
