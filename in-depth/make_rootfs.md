@@ -44,7 +44,7 @@ cp -a rootfs-by-apricity/* rootfs
 
 ### 制作镜像文件
 
-我们不妨把要制作的镜像文件放在我们的 `$TOP` 目录里，命名为 `rootfs.ext3`。
+我们不妨把要制作的镜像文件放在 `$TOP` 目录里，命名为 `rootfs.ext3`。
 
 ```bash
 # 转到顶层文件夹
@@ -84,4 +84,4 @@ qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -drive if=sd,index=0,fi
 看起来我们已经能在这块开发板上搞一些事情了。不过现在所有的用户态应用程序（除了内核、驱动等）都是来自于我们刚刚编译的 Busybox（比如下图中在终端里运行的 `ls`）。在最后一章里，我们将会在这块开发板上运行自己写的 C 语言程序。
 
 ![测试结果](/assets/sd-rootfs.png)
-![测试结果](/assets/sd-rootfs-ls.png)
+![ls所指向的位置](/assets/sd-rootfs-ls.png)

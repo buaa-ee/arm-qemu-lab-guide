@@ -54,3 +54,5 @@ SD=$TOP/rootfs.ext3
 
 qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -drive if=sd,index=0,file=$SD,format=raw -append "root=/dev/mmcblk0 console=tty0"
 ```
+
+![测试结果](/assets/sd-rootfs.png)
