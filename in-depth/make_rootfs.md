@@ -1,32 +1,30 @@
-## 制作 RootFS
-
-【状态：已完成】
-
----
-
+# 制作 RootFS
 
 现在，我们使用编译好的 Busybox 来构建一个 RootFS，让内核启动后有事可做。
 
-### 进入工作目录
+## 进入工作目录
+
 ```bash
 TOP=$HOME/arm-linux
 cd $TOP
 ```
 
-### 建立目录结构
+## 建立目录结构
+
 ```bash
 mkdir rootfs
 cd rootfs
 mkdir proc sys dev etc tmp
 ```
 
-### 把 Busybox 复制进来
+## 把 Busybox 复制进来
+
 ```bash
 cp -a $TOP/busybox-1.26.2/_install/* .
 cp -a $TOP/busybox-1.26.2/examples/bootfloppy/etc/* etc
 ```
 
-### 进行一下必要的修改
+## 进行一下必要的修改
 
 主要是 `etc/fstab` 和 `etc/init.d/rcS` 两个文件。
 
@@ -41,8 +39,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/rootfs-b
 cp -a rootfs-by-apricity/* rootfs
 ```
 
-
-### 制作镜像文件
+## 制作镜像文件
 
 我们不妨把要制作的镜像文件放在 `$TOP` 目录里，命名为 `rootfs.ext3`。
 
@@ -70,7 +67,8 @@ sudo umount tmpfs
 rmdir tmpfs
 ```
 
-### 在 QEMU 中测试
+## 在 QEMU 中测试
+
 ```bash
 TOP=$HOME/arm-linux
 DTB=$TOP/linux-4.10.5/arch/arm/boot/dts/vexpress-v2p-ca9.dtb
@@ -79,6 +77,7 @@ SD=$TOP/rootfs.ext3
 
 qemu-system-arm -M vexpress-a9 -dtb $DTB -kernel $KERNEL -drive if=sd,index=0,file=$SD,format=raw -append "root=/dev/mmcblk0 console=tty0"
 ```
+
 可以看到，我们做的 RootFS 在启动后给了我们一个终端，你可以试一试在里面输入命令。
 
 看起来我们已经能在这块开发板上搞一些事情了。不过现在所有的用户态应用程序（即除了内核、驱动等）都是来自于我们刚刚编译的 Busybox（比如下图中在终端里运行的 `ls`）。在最后一章里，我们将会在这块开发板上运行自己写的 C 语言程序。

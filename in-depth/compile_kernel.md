@@ -1,11 +1,6 @@
-## 编译内核
+# 编译内核
 
-【已完成】
-
----
-
-
-### 进入工作目录
+## 进入工作目录
 
 ```bash
 # 进入工作目录
@@ -13,8 +8,7 @@ TOP=$HOME/arm-linux
 cd $TOP
 ```
 
-
-### 下载内核源码
+## 下载内核源码
 
 ```bash
 # 下载内核源代码并解压(85M)：
@@ -23,8 +17,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/linux-4.
 
 这里依然是从 Coding.net 的仓库上下载。如果你想要其他版本的内核源码，而又嫌从国外下载速度太慢，可以告诉我。
 
-
-### 编译内核
+## 进行编译
 
 ```bash
 # 进入内核源码目录
@@ -44,8 +37,7 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 
 在等待编译完成的过程中，你可以考虑喝个茶什么的。
 
-
-### 在 QEMU 中测试
+## 在 QEMU 中测试
 
 ```bash
 # 在 QEMU 中测试

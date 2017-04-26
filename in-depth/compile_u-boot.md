@@ -1,11 +1,6 @@
-## 编译 U-Boot
+# 编译 U-Boot
 
-【状态：已完成】
-
----
-
-
-### 建立并进入工作目录
+## 建立并进入工作目录
 
 ```console
 TOP=$HOME/arm-linux
@@ -16,6 +11,7 @@ cd $TOP
 注意：为了方便表述，这里使用了变量（变量在关闭终端后会消失，需要重新设置），你也可以不使用，直接把变量换成相应的文本即可。
 
 上述命令的意义是：
+
 * `TOP=$HOME/arm-linux`
 
     设定一个变量 `TOP` 用来指代顶层目录（`$HOME` 是你的主目录，它是一个默认存在的环境变量）。
@@ -24,8 +20,7 @@ cd $TOP
 
     新建 `$TOP` 这个目录（`$TOP` 指的是变量 `TOP` 的内容）
 
-
-### 下载 U-Boot 源码
+## 下载 U-Boot 源码
 
 这里下载的是 2017.03 的版本：
 
@@ -40,8 +35,7 @@ curl https://coding.net/u/stamp711/p/arm-linux/git/raw/master/downloads/u-boot-2
 
 <ftp://ftp.denx.de> 的下载速度非常慢，除非你有代理。如果你想要其他版本的 U-Boot 源码而又嫌从国外下载速度太慢，可以告诉我。
 
-
-### 编译 U-Boot
+## 进行编译
 
 ```console
 # 进入源码目录
@@ -52,6 +46,7 @@ cd u-boot-2017.03
 # 为 vexpress 开发板生成配置文件
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- vexpress_ca9x4_defconfig
 ```
+
 > vexpress 是一个 ARM 的开发板。可以参看 [这篇博客](https://learningfromyoublog.wordpress.com/2016/04/05/131/)。
 
 ```console
@@ -61,8 +56,7 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- all
 
 编译可能需要两到三分钟。如果你遇到了故障，记得要先使用 `make clean` 清除残留文件，然后再进行编译尝试。
 
-
-### 在 QEMU 中测试
+## 在 QEMU 中测试
 
 ```bash
 # 在 QEMU 中测试

@@ -1,10 +1,6 @@
-## 在你的电脑上运行 Linux
+# 在你的电脑上运行 Linux
 
-【状态：已完成】
-
----
-
-### 发行版的选择
+## 发行版的选择
 
 为了和原实验指导书保持一致，本文使用的 Linux 发行版是 [XUbuntu](https://xubuntu.org)。
 
@@ -18,12 +14,14 @@ XUbuntu 使用的桌面环境是 Xfce 而不是 Unity，因此占用的资源更
 [TUNA-UbuntuISO]:   https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/
 [XUbuntuDownload]:  https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/xubuntu/releases/16.04.2/release/xubuntu-16.04.2-desktop-i386.iso
 
-
-### 准备虚拟机
+## 准备虚拟机
 
 本文使用 [VirtualBox](https://virtualbox.org)，这里只对虚拟机的安装作一些简要的说明。
 
 你应当进行的步骤有：
+
+<!-- markdownlint-disable MD007 -->
+<!-- markdownlint-disable MD012 -->
 
 * 新建一个虚拟机，为其分配合理的 CPU、内存、磁盘。
     * 虚拟机类型选择 **64-bit Ubuntu**。
