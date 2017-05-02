@@ -1,9 +1,4 @@
-## 运行 C 语言程序
-
-【施工中】
-
----
-
+# 运行 C 语言程序
 
 ```bash
 # 进入工作目录
@@ -31,7 +26,7 @@ nano hello.c
 vim hello.c
 ```
 
-```
+```bash
 # 写完之后，用交叉编译工具去编译它
 # 不指定输出文件名的话，默认生成 a.out
 arm-linux-gnueabi-gcc hello.c

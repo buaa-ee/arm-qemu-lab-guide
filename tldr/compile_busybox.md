@@ -1,9 +1,4 @@
-## 编译 Busybox
-
-【状态：已完成】
-
----
-
+# 编译 Busybox
 
 ```bash
 # 进入工作目录
@@ -25,11 +20,10 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- menuconfig
 # Busybox Settings —> Build Options —> [*] Build BusyBox as a static binary (no shared libs)
 ```
 
-![](/assets/busybox_menuconfig_1.png)  
+![](/assets/busybox_menuconfig_1.png)
 ![](/assets/busybox_menuconfig_2.png)
 
 ```bash
 # 进行编译
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- install
 ```
-
